@@ -55,6 +55,10 @@ For this demo, we will be using the [FireFrog Banking](https://demo.testfire.net
       - [Running the Admin Page Scraper](#running-the-admin-page-scraper)
       - [Running the Homepage Scraper](#running-the-homepage-scraper)
     - [Quick Reference Commands](#quick-reference-commands)
+  - [Configuring Headless Browser](#configuring-headless-browser)
+    - [What is a Headless Browser?](#what-is-a-headless-browser)
+    - [Enabling or Disabling Headless Mode](#enabling-or-disabling-headless-mode)
+      - [How to Change Headless Configuration](#how-to-change-headless-configuration)
   - [Troubleshooting](#troubleshooting)
     - [Common Errors and Solutions](#common-errors-and-solutions)
   - [Contributing](#contributing)
@@ -283,6 +287,54 @@ When you run this command, Ruby executes the specified script, and the scraper p
   ```bash
   ruby lib/scrapers/homepage_scraper.rb
   ```
+
+## Configuring Headless Browser
+
+### What is a Headless Browser?
+
+A **headless browser** is a web browser without a graphical user interface. It allows you to perform automated web interactions, such as navigating pages and filling out forms, without opening a visible browser window. This is particularly useful for running scripts on servers or environments where a display is not available.
+
+### Enabling or Disabling Headless Mode
+
+By default, the scraper scripts are set to run in headless mode to improve performance and reduce resource usage. If you prefer to see the browser actions in real-time for debugging or learning purposes, you can easily enable or disable headless mode by modifying a single line of code in each scraper file.
+
+#### How to Change Headless Configuration
+
+1. **Locate the Scraper File**:
+
+   Navigate to the scraper file you want to configure. For example:
+   - `scrapers/admin_page_scraper.rb`
+   - `scrapers/homepage_scraper.rb`
+
+2. **Modify the Browser Initialization Line**:
+
+   Find the line where the Watir browser is initialized. It should look like this:
+
+   ```ruby
+   browser = Watir::Browser.new :chrome, headless: true
+   ```
+
+3. **Enable Headless Mode**:
+
+   To **enable** headless mode (browser runs in the background without a UI), ensure the line is:
+   ```ruby
+   browser = Watir::Browser.new :chrome, headless: true
+   ```
+
+4. **Disable Headless Mode**:
+
+   To **disable** headless mode (browser window will be visible), change the line to:
+   ```ruby
+   browser = Watir::Browser.new :chrome, headless: false
+   ```
+   
+   Or simply remove the `headless` option, as `false` is the default value:
+   
+   ```ruby
+   browser = Watir::Browser.new :chrome
+   ```
+
+**Note**: Disabling headless mode will open a new browser window each time you run the scraper, allowing you to observe the automated interactions.
 
 ## Troubleshooting
 
