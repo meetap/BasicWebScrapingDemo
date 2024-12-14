@@ -40,7 +40,6 @@ For this demo, we will be using the [FireFrog Banking](https://demo.testfire.net
 - [WebScrapingDemo](#webscrapingdemo)
   - [Demo Site Information](#demo-site-information)
   - [Table of Contents](#table-of-contents)
-  - [Introduction](#introduction)
   - [Prerequisites](#prerequisites)
     - [Installing Ruby](#installing-ruby)
       - [MacOS](#macos)
@@ -63,10 +62,6 @@ For this demo, we will be using the [FireFrog Banking](https://demo.testfire.net
     - [Common Errors and Solutions](#common-errors-and-solutions)
   - [Contributing](#contributing)
   - [License](#license)
-
-## Introduction
-
-**MyScraper** is a Ruby-based tool that utilizes [Nokogiri](https://nokogiri.org/) for parsing HTML and [Watir](https://watir.com/) for automating web browsers. This tool is ideal for beginners who want to learn web scraping or professionals seeking a reliable solution for data extraction.
 
 ## Prerequisites
 
