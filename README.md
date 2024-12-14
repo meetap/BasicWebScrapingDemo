@@ -7,6 +7,33 @@ This is a Ruby-based demo project designed to teach beginners how to perform bot
 **Purpose**:  
 This project serves as an educational tool to help you understand the fundamentals of web scraping using Ruby. It provides hands-on experience with automating interactions on a live website and extracting structured data from it.
 
+## Table of Contents
+- [WebScrapingDemo](#webscrapingdemo)
+  - [Table of Contents](#table-of-contents)
+  - [Demo Site Information](#demo-site-information)
+  - [Prerequisites](#prerequisites)
+    - [Installing Ruby](#installing-ruby)
+      - [MacOS](#macos)
+      - [Linux](#linux)
+      - [Windows](#windows)
+    - [Installing Git](#installing-git)
+  - [Setting Up the Project](#setting-up-the-project)
+    - [Cloning the Repository](#cloning-the-repository)
+    - [Installing Dependencies](#installing-dependencies)
+  - [Project Structure](#project-structure)
+  - [Running the Scrapers Using the Ruby Command](#running-the-scrapers-using-the-ruby-command)
+      - [Running the Admin Page Scraper](#running-the-admin-page-scraper)
+      - [Running the Homepage Scraper](#running-the-homepage-scraper)
+    - [Quick Reference Commands](#quick-reference-commands)
+  - [Configuring Headless Browser](#configuring-headless-browser)
+    - [What is a Headless Browser?](#what-is-a-headless-browser)
+    - [Enabling or Disabling Headless Mode](#enabling-or-disabling-headless-mode)
+      - [How to Change Headless Configuration](#how-to-change-headless-configuration)
+  - [Troubleshooting](#troubleshooting)
+    - [Common Errors and Solutions](#common-errors-and-solutions)
+  - [Contributing](#contributing)
+  - [License](#license)
+
 ## Demo Site Information
 
 For this demo, we will be using the [FireFrog Banking](https://demo.testfire.net/index.jsp) website, which is specifically designed for testing and educational purposes.
@@ -34,34 +61,6 @@ For this demo, we will be using the [FireFrog Banking](https://demo.testfire.net
 
 **Security Notice**:
 - The demo site is publicly accessible and intended solely for educational purposes. **Do not use real personal information or credentials** when interacting with this site.
-
-## Table of Contents
-
-- [WebScrapingDemo](#webscrapingdemo)
-  - [Demo Site Information](#demo-site-information)
-  - [Table of Contents](#table-of-contents)
-  - [Prerequisites](#prerequisites)
-    - [Installing Ruby](#installing-ruby)
-      - [MacOS](#macos)
-      - [Linux](#linux)
-      - [Windows](#windows)
-    - [Installing Git](#installing-git)
-  - [Setting Up the Project](#setting-up-the-project)
-    - [Cloning the Repository](#cloning-the-repository)
-    - [Installing Dependencies](#installing-dependencies)
-  - [Project Structure](#project-structure)
-  - [Running the Scrapers Using the Ruby Command](#running-the-scrapers-using-the-ruby-command)
-      - [Running the Admin Page Scraper](#running-the-admin-page-scraper)
-      - [Running the Homepage Scraper](#running-the-homepage-scraper)
-    - [Quick Reference Commands](#quick-reference-commands)
-  - [Configuring Headless Browser](#configuring-headless-browser)
-    - [What is a Headless Browser?](#what-is-a-headless-browser)
-    - [Enabling or Disabling Headless Mode](#enabling-or-disabling-headless-mode)
-      - [How to Change Headless Configuration](#how-to-change-headless-configuration)
-  - [Troubleshooting](#troubleshooting)
-    - [Common Errors and Solutions](#common-errors-and-solutions)
-  - [Contributing](#contributing)
-  - [License](#license)
 
 ## Prerequisites
 
