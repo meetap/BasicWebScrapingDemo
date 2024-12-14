@@ -1,3 +1,5 @@
+![CleanShot 2024-12-15 at 00 34 21@2x](https://github.com/user-attachments/assets/141eafd5-5b97-4e56-ae14-32a56da2801b)
+
 # WebScrapingDemo
 
 This is a Ruby-based demo project designed to teach beginners how to perform both basic and interactive web scraping. This project leverages [Watir](https://watir.com/) for browser automation and [Nokogiri](https://nokogiri.org/) for HTML parsing. By following this tutorial, you'll learn how to navigate websites, handle login forms, and extract valuable data efficiently.
