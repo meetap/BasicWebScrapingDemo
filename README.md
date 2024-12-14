@@ -199,8 +199,8 @@ Git is essential for cloning the repository. If you don't have Git installed, fo
 First, clone the WebScrapingDemo repository to your local machine.
 
 ```bash
-git clonehttps://github.com/MeetAp/WebScrapingDemo.git
-cd WebScrapingDemo
+git clonehttps://github.com/MeetAp/BasicWebScrapingDemo.git
+cd BasicWebScrapingDemo
 ```
 
 ### Installing Dependencies
